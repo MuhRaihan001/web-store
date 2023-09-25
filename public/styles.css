@@ -1,0 +1,257 @@
+.register-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+#register {
+    display: flex;
+    flex-direction: column;
+}
+  
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+  
+#register button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+#register button[type="submit"]:hover{
+    background-color: #0056b3;
+}
+  
+.register-form footer{
+    margin-top: 10px;
+    text-align: center;
+}
+  
+.register-form a{
+    color: #007bff;
+    text-decoration: none;
+}
+  
+.register-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form {
+    display: none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.login-form footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-form footer a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.login-form footer a:hover {
+    text-decoration: underline;
+}
+.first-page {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+}
+
+.section {
+    width: 30%;
+    height: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.saldo-user{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saldo-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+#saldo {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+.add-saldo-button {
+    font-size: 16px;
+    color: black;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section p {
+    font-size: small;
+}
+.product{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item {
+    flex-basis: calc(25% - 25px);
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item p {
+    margin-bottom: auto;
+}
+
+.product-item button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-item input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#cart {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+  
+#cart img {
+    width: 32px;
+    height: 32px;
+}
+  
+#cart:hover {
+    opacity: 0.8;
+}
+.status-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.order-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+  
+.order-list > div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+  
+.order-list h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+  
+.order-list p {
+    margin: 5px 0;
+}
+  
+.order-list img {
+    max-width: 100%;
+    height: auto;
+}
+  

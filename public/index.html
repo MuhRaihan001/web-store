@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>RyuX & Agus samp shop</title>
+    </head>
+    <body>
+        <div class="register-form">
+            <form id="register">
+                <input id="username" type="text" placeholder="Masukan Username">
+                <input id="userEmail" type="email" placeholder="Masukan Email">
+                <input id="userPassword" type="password" placeholder="Masukan Password">
+                <button type="submit">Create Account</button>
+            </form>
+            <footer>
+                <span>Sudah punya akun? <a href="#" id="login-page">Login disini</a></span>
+            </footer>
+        </div>
+        <div class="login-form">
+            <form id="login">
+                <input id="email" type="email" placeholder="masukan email anda">
+                <input id="password" type="password" placeholder="password">
+                <button type="submit">login</button>
+            </form>
+            <footer>
+                <span>Belum punya akun? <a href="#" id="register-page">Register disini</a></span>
+            </footer>
+        </div>
+        <button id="cart"><img src="picture/cart.png"></button>
+        <div class="first-page">
+            <div class="banner">
+                <div class="section">
+                    <h3>Tentang Store</h3>
+                    <p>RyuX & Agus store adalah store yang menyediakan jasa dan produk, jasa dan produk utama kami adalah pembuatan web dan jasa developer SA-MP perbulan/perminggu</p>
+                    <p>Kami juga memiliki jasa seperti Jasa pembuatan filter script, dan Jasa mengerjakan backend untuk web anda (express)</p>
+                </div>
+                <div class="section">
+                    <h3>Promo</h3>
+                    <p>Store kami juga memiliki promo secara random sehingga sebaiknya pantau web agar tidak ketinggalan promo, dan juga kami akan membuat flash sale (ongoing)</p>
+                </div>
+                <div class="section">
+                    <h3>Scam</h3>
+                    <p>Kami menjamin keamanan kostumer kami, setiap transaksi yang dilakukan seller akan kami pantau untuk mencegah terjadinya scam</p>
+                </div>
+        </div>
+        <div class="saldo-user">
+            <h3>Saldo Di Akun anda</h3>
+            <div class="saldo-box">
+                <span id="saldo"></span>
+                <button class="add-saldo-button">+</button>
+            </div>
+        </div>
+        <div class="status-order">
+            <h3>List pesanan anda dan status nya</h3>
+            <div class="order-list"></div>
+        </div>
+        <div class="product">
+            <h1>List product yang tersedia di store kami</h1>
+            <div class="product-list"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
